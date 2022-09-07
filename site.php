@@ -11,7 +11,10 @@
 <body>
     <h1>
         <?php
-        echo 'hello word!';
+        $a=1;
+        $b=2;
+        $maior= $a<$b ? $b : $a;
+        echo 'hello word!' ."</br>O maior valor é $maior.";
         ?>
     </h1>
 </body>
